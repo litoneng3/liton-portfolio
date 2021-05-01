@@ -10,9 +10,7 @@ const HeaderMain = () => {
                 <h5>Front End Wev Developer</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos amet et rerum neque, officia blanditiis maiores perspiciatis saepe obcaecati dolore quisquam tempore est repudiandae assumenda quia sapiente accusamus quasi nulla.</p>
 
-                <a href="../../../updated-resume.pdf" target="blank" download>
-                    <button className="btn btn-danger">Download Resume</button>
-                </a>
+                <a class="btn btn-primary" href="https://drive.google.com/uc?export=download&id=1QYudP85u7LC_YCYUymQiEPwpXNHwtgUL" role="button" target="_blank">Download Resume</a>
 
             </div>
             <div className="col-md-6">
