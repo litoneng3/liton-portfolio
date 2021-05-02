@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div className="container mt-5">
             <section className="row d-flex justify-content-center">
-                <div className="col-md-6">
+                <div className="col-md-6 mt-5">
                     <div className="d-flex mt-5 justify-content-center">
                          <h2 style={{ color: '#1CC7C1' }}>About Me</h2>
                     </div>

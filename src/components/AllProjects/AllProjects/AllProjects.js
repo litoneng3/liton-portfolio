@@ -4,6 +4,7 @@ import AllProjectDetail from '../AllProjectDetail/AllProjectDetail';
 import hungry from '../../../image/hungry-monster.PNG';
 import football from '../../../image/football.PNG';
 import baby from '../../../image/baby-care.PNG';
+import Footer from '../../Shared/Footer/Footer';
 
 
 
@@ -80,6 +81,7 @@ const Projects = () => {
                     </div>
                 </div>
             </section>
+            <Footer></Footer>
         </div>
     );
 };

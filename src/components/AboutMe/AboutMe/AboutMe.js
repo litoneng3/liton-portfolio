@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Navbar from '../../Shared/Navbar/Navbar';
 import about from '../../../image/liton.jpg';
 import Skills from '../../Shared/Skills/Skills';
+import Footer from '../../Shared/Footer/Footer';
 
 
 const AboutMe = () => {
@@ -30,6 +31,7 @@ const AboutMe = () => {
                 </section>
             </div>
             <Skills></Skills>
+            <Footer></Footer>
         </div>
 
     );

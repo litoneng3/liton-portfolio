@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import Projects from '../Projects/Projects';
 import Services from '../Services/Services';
 import Skills from '../../Shared/Skills/Skills';
+import Footer from '../../Shared/Footer/Footer';
 
 const Home = () => {
     return (
@@ -13,7 +14,7 @@ const Home = () => {
             <Skills></Skills>
             <Services></Services>
             <Projects></Projects>
-            
+            <Footer></Footer>
         </div>
     );
 };

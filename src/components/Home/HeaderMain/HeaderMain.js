@@ -3,13 +3,14 @@ import liton from '../../../image/liton.jpg';
 import './HeaderMain.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
-
+import profile1 from '../../../image/profile1.png';
+import profile2 from '../../../image/profile2.png';
 
 const HeaderMain = () => {
     return (
         <div className="container mt-5 pt-5">
             <div className="row">
-                <div className="col-md-6 mt-5">
+                <div className="col-md-6 mt-5 pt-5">
                     <h2 style={{ color: '#1CC7C1' }}>Md. Liton Hossain</h2>
                     <h5>Front End Wev Developer</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos amet et rerum neque, officia blanditiis maiores perspiciatis saepe obcaecati dolore quisquam tempore est repudiandae assumenda quia sapiente accusamus quasi nulla.</p>
@@ -19,7 +20,7 @@ const HeaderMain = () => {
 
                 </div>
                 <div className="col-md-6">
-                    <img src={liton} alt="" />
+                    <img src={profile1} alt="" />
                 </div>
             </div>
         </div>

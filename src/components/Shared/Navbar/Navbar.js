@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 
 const Navbar = () => {
     return (
         <div className="mb-5">
-            <nav style={{zIndex:'1.3'}} class="navbar navbar-expand-lg navbar-light bg-secondary text-info fixed-top mb-5">
-                <div class="container-fluid">
+            <nav style={{zIndex:'1.3'}} class="navbar ps-5 navbar-expand-lg navbar-light bg-secondary text-info fixed-top mb-5">
+                <div class="container-fluid ms-5">
                     <Link class="navbar-brand nav-hover text-white" to="/about">Liton Hossain</Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon "></span>
@@ -29,6 +31,7 @@ const Navbar = () => {
                             <li class="nav-item">
                                 <Link class="nav-link nav-hover text-white" to="/contact">Contact Me</Link>
                             </li>
+                            <li className="nav-link"><a href="https://drive.google.com/uc?export=download&id=1QYudP85u7LC_YCYUymQiEPwpXNHwtgUL" role="button" target="_blank">Resume <FontAwesomeIcon icon={faDownload} /></a></li>
                            
 
                         </ul>

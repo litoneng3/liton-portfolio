@@ -4,6 +4,7 @@ import Navbar from '../../Shared/Navbar/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-solid-svg-icons';
 import './Contact.css';
+import Footer from '../../Shared/Footer/Footer';
 
 
 const Contact = () => {
@@ -60,6 +61,7 @@ const Contact = () => {
                 </div>
 
             </div>
+            <Footer></Footer>
 
 
 
