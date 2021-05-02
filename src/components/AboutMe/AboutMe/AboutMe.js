@@ -25,7 +25,6 @@ const AboutMe = () => {
                         </p>
                             <p>I am Seeking for a versatile and adaptable position in web development sector that suits my skills.</p>
                             <a href="https://www.linkedin.com/in/md-liton-hossain-750510203/" target="_blank" rel="noopener noreferrer"><button className="btn btn-primary">Hire Me</button></a>
-                            <Link to="/about"><button className="btn btn-success ms-2">More About Me</button></Link>
                         </div>
                     </div>
                 </section>

@@ -49,7 +49,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="d-flex justify-content-center">
-                <Link to="/allProjects"><button className="btn btn-warning">Viwe All Projects</button></Link>
+                <Link to="/allProjects"><button className="btn btn-outline-warning">Viwe All Projects</button></Link>
             </div>
 
         </section>

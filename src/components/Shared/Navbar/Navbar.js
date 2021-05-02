@@ -8,7 +8,7 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
     return (
         <div className="mb-5">
-            <nav style={{zIndex:'1.3'}} class="navbar ps-5 navbar-expand-lg navbar-light bg-secondary text-info fixed-top mb-5">
+            <nav style={{zIndex:'1.3'}} class="navbar navbar-expand-lg navbar-light bg-secondary text-info fixed-top mb-5">
                 <div class="container-fluid ms-5">
                     <Link class="navbar-brand nav-hover text-white" to="/about">Liton Hossain</Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
